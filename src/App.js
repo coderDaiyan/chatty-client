@@ -3,7 +3,7 @@ import addNotification from "react-push-notification";
 import { io } from "socket.io-client";
 import "./App.css";
 
-const socket = io("http://localhost:8080");
+const socket = io("https://chatty-server-production.up.railway.app/");
 
 function App() {
   const [msg, setMsg] = useState("");
