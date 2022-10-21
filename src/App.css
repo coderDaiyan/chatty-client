@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,15 +20,19 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.msg_body {
+  background: #006aff;
+  margin-left: 11rem !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.other_msg_body {
+  background: gray;
+  margin-right: 11rem !important;
+}
+
+.msg_body,
+.other_msg_body {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
 }
